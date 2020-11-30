@@ -1,0 +1,85 @@
+.table-container{
+    overflow-y: scroll; 
+}
+.table-container{
+    /* width:450px ; */
+    font-size: 2vw;
+
+
+}
+.table-container::-webkit-scrollbar {
+  width: 10px;
+  /* height: 10px; */
+}
+.table-container::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 5px;
+  }
+  
+
+th {
+    cursor: pointer;
+      }
+      
+ .hospital-status-container{
+    margin: 15px 0px;
+
+      }
+      .hospital-status-table{
+          width: 100%;
+      }
+/* .hospital-status-table th,  .hospital-status-table td{
+background: lawngreen;
+display: ;
+} */
+.crowded-percent{
+    background: lightblue;
+    display: inline-block; 
+    /*  */
+    height:10px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px 5px;
+}
+.over-crowded{
+    background: darkslategrey;
+
+}
+@media(min-width:770px){
+    .table-container{
+        /* width:450px ; */
+        font-size: 1.5vw;
+    
+    
+    }
+    
+}
+  table {
+}
+
+
+@media(min-width:1000px){
+
+    .epidemic-spread-container{
+        width: 75%;
+        /* height: 0px; */
+        /* height: 200px; */
+        /* overflow-y: scroll; */
+
+    }
+    .hospital-status-container{
+        width: 45%;
+        margin: 15px 0px;
+    }
+    .table-container{
+        overflow-y: scroll; 
+        font-size: initial;
+
+    }
+    th, td {
+        padding: 5px;
+          }
+          .hospital-status-container{
+            margin:0px 15px;
+        }
+  
+}

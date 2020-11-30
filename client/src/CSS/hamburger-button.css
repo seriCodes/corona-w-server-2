@@ -1,0 +1,12 @@
+.hamburger-butt{
+    /* font-size: 30px; */
+    color: #374f60;
+
+   
+ }
+ .bar {
+    width: 25px;
+    height: 2px;
+    background-color: #374f60; 
+    margin: 5px 4px; 
+  }

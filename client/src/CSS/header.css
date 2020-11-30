@@ -1,0 +1,116 @@
+ 
+ 
+ body{
+    /* border: green solid 3px; */
+ padding:0px 5px;
+ }
+ 
+ .main-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/* height:calc(var(--header-heighet)+var(--header-heighet-small-screen-extra)); */
+/* development version- fine in small screens  */
+/* unfortunately inner css func's prevents heroku deployment */
+/* height:80px;  production  version- problem in small screen */
+
+/* border: aqua solid 3px; */
+  background:white;
+  position: fixed;
+ top: 0px;
+ left: 0px;
+width: 100%;
+padding-top:var(--header-padding-top);  
+z-index: 2; 
+}
+@media  (min-width: 300px) and  (max-width:519px) {
+    .main-header-container{
+        /* left: 52px; */
+    } 
+  }
+  
+
+
+.main-header-container .header-start{
+    width:100%;
+     display: flex;
+    justify-content: start;
+    margin: 1rem 0rem;
+ }
+ 
+.main-header-container a{ 
+    text-decoration: none;
+}
+
+.header-ending{
+    /* margin-bottom: 1rem; */
+    width:100%;
+ display: flex;
+ justify-content: space-between;
+align-items: center;
+ /* border: brown solid 4px; */
+    margin :1rem 0rem;
+    white-space: nowrap;
+    text-align: right;
+height: var(--header-heighet-small-screen-extra);
+    color: black;
+    padding: 0px 10px;
+
+}
+.header-ending .title-container .title{
+    font-size: 13px ; 
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+    color: #24343f;
+}
+.header-ending .title-container .sub-title{
+
+    font-size: 10px ;
+    color: #24343f;
+}
+.main-header-container .sub-title{
+    font-weight: initial;
+}
+.header-ending .button-default-view {
+margin-left: 87px;
+}
+
+@media(min-width:1000px){
+    .main-header-container{
+        /* height: var(--header-heighet); see above comment about  --header-heighet*/
+        height: 75px;
+
+        flex-direction: row;
+        /* justify-content: flex-start; */
+    }
+    .main-header-container .header-start{
+        width:30%;
+         display: flex;
+        justify-content: start;
+     }
+
+    .header-ending{
+        margin-left: 2.5rem;
+        justify-content: space-between;
+    width:70%;
+    text-align: center;
+
+
+    }
+    .main-header-container a{
+        padding: 16px;
+    }
+    
+    
+    .header-ending .title-container .title{
+        font-size: 1.2rem;
+    }
+    .header-ending .title-container .sub-title{
+        font-size: .9rem;
+    }
+    .header-ending .button-default-view {
+        margin-left: 17px;
+        }
+ 
+} 

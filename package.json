@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+
+  "description": "server-corona-charts-project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "runDB": "c:/Users/saars/mongodb/bin/mongod.exe --dbpath=c:/Users/saars/mongodb-data"
+
+  },
+  "author": "Saar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

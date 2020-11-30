@@ -1,0 +1,23 @@
+
+.logo-container{
+    height:calc(var(--header-heighet) ) ;
+    /* margin-bottom: 1rem;
+ 
+    margin-left: 4rem; */
+}
+.logo-container img{
+    height:calc(var(--header-heighet) ) ;
+ 
+}
+@media(min-width:1000px){
+    .logo-container{
+        height:calc(var(--header-heighet)*0.5) ;
+        /* margin-bottom: 1rem;
+     
+        margin-left: 4rem; */
+    }
+    .logo-container img{
+        height:calc(var(--header-heighet)*0.5) ;
+     
+    }
+}

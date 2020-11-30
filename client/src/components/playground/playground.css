@@ -1,0 +1,92 @@
+.red-drop{
+    background: red;
+    margin: 10px 0px 85px 0px;
+    /* margin: 15px 0px; */
+    width: 300px;;
+    height: 300px;
+    z-index: 3;
+}
+.graphs-container, .sicks-distribution-container-play{
+    position: absolute;
+    top: 500px;
+    /* left: 30px; */
+        left:400px;
+
+    width: 500px;
+    height: 200px;
+    background: hotpink;
+    z-index:3;
+    margin: 0px 0px;
+
+}
+.sicks-distribution-container-play2{
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    width: 800px;
+    height: 500px;
+    background: honeydew;
+    z-index:0;
+}
+.sicks-distribution-container-play3{
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+    width: 800px;
+    height: 500px;
+    background: forestgreen;
+    z-index:0;
+
+}
+.graphs-container2{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    width: 800px;
+    height: 500px;
+    background: hotpink;
+    z-index: 54;
+}
+#exapampleEchart1{
+    background: peru;
+    position: absolute;
+    top: 150px;
+    left: 390px;
+    z-index: 6;
+    width: 40%;
+}
+#exapampleEchart2{
+    background: pink;
+    position: absolute;
+    top: 1400px;
+    left: 390px;
+    z-index: 6;
+    width: 40%;
+}
+
+.echartExp{ 
+    border: green solid 17px;
+    width: 200px;
+    height: 300px;
+}
+.drop-content{
+    border: blue solid 17px;
+
+}
+@media(min-width:700px){
+    .echartExp{
+        border: pink solid 17px;
+ 
+        /* width: auto;
+        height: auto; */
+
+        width: 500px;
+        height: 500px;
+    } 
+
+}
+#plswork{
+    background: fuchsia;
+}
+
+/* style={{width:'500px', height:'600px',}}  */

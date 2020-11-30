@@ -1,0 +1,9 @@
+@media(min-width:1000px){
+    .staff-status-container, .detection-Chart-container{
+        width: 27.5%;
+    }
+
+}
+#sick-detection-chart{
+   height: 230px;
+}

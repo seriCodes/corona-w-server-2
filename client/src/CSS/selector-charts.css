@@ -1,0 +1,106 @@
+.epidemic-container{
+    /* width: 60%; */
+ }
+.severe-container, .sicks-distribution-container{
+    /* width: 40%; */
+margin: 15px 0px;
+
+}
+.upper-container{
+    position: relative;
+}
+.upper-container .options-button-container{
+    position: absolute;
+    top: 3px;
+    left:7px ;  
+}
+.selector-button-container{
+     background:whitesmoke ;
+    border-radius: 15px;
+    font-weight: bolder;
+    display: inline;
+    padding: 3px 6px 3px 0px;
+    /* margin-right: 13px; */
+}
+.options-button-container{
+    display: inline;
+    /* position: relative; */
+}
+/* .selector-button-container:hover */
+ .prevent-propagation:hover{
+    background:gray ;
+
+}
+.selector-button-container-items{
+    display: flex;
+    justify-content: space-between;
+}
+/* .prevent-propagation{
+    background:red ;
+
+} */
+.options-container{
+    position: absolute;
+
+    background: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: 10px;
+    width: 128px;
+}
+.options-container div:hover{
+    background: gray;
+
+}
+.arrow-animation{
+      transform: rotate(180deg);  
+    /* background: rgb(3, 3, 3); */
+}
+/* .selector-button-container:active {
+    background: cyan;
+  }
+  
+.selector-button-container:focus{
+    background:greenyellow ;
+
+} */
+.selector-button-container{
+    display: inline-block;
+    width:128px;
+    font-size: 0.7925rem;
+    /* background: cyan; */
+    /* position:relative; */
+}
+.selector-button-icon{
+    margin: 0px 10px;
+    display: inline-block;
+    /* position: absolute;
+    left: 111; */
+    /* font-size: 1.5rem; */
+ 
+}
+.arrow-icon{
+    display: inline-block;
+
+width: 15px;
+    height: 15px;
+}
+
+@media(min-width:1000px){
+    .epidemic-container{
+        width: 65%;
+        margin-left: 15px;
+    }
+    .severe-container, .sicks-distribution-container{
+        width: 35%;
+        margin: initial; 
+    } 
+    .sicks-distribution-container{
+        width: 30%;
+        margin-left: 15px;
+
+    }
+}

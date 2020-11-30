@@ -1,0 +1,39 @@
+.stats-square-container{
+display: flex;
+flex-direction: column;
+
+}
+.stats-square-container .title{
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700 ;
+}
+.stats-square-container .sum{
+    line-height: 1.1;
+    font-size: 1.4rem;
+    font-weight: 700 ;
+
+}
+.stats-square-container .difference{
+    /* direction: rtl;     */
+/* writing-mode: sideways-rl; */
+/* writing-mode: sideways-lr; */
+font-size: .8em;
+    }
+.stats-square-container .difference .amount{
+    font-weight: 700 ;
+
+}
+
+.stats-square-container .amount-period{
+    font-weight: initial ;
+
+}
+.stats-square-container .bottom-element {
+    margin-top:80px ;
+    margin-top: auto;
+}
+
+
+

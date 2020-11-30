@@ -1,0 +1,106 @@
+.daily-trend-container{
+    position: relative;
+}
+.daily-trend-container .icon-container{
+    border-radius: 50%;
+    border: 1px solid rgba(151,151,151,.22);
+    padding: 4px;
+    margin-left: 5px;
+    background: var(--background-default-components);
+    /* height: 28px;
+    width: 28px; */
+}
+.daily-trend-container .icon-container svg{
+    height: 18px;
+    width: 28px;
+
+}
+
+
+.daily-trend-Line-Chart-container{
+background: var(--background-default-components);
+border-radius: 15px;
+position: absolute;
+width: 65vw;
+height: 55vh;
+z-index:1;
+/* background: lawngreen; */
+box-shadow:0 0 20px 0 rgba(0,0,0,0.3607843137254902);
+}
+
+@media  (min-width: 300px) and  (max-width:519px) {
+    .daily-trend-Line-Chart-container{
+        position: fixed;
+        left: 5%;
+        top: 35%;
+        width: 90vw;
+
+        } 
+  }
+
+
+.display-center-viewport{
+    position: fixed;
+    left: 40%;
+    top: 35%;
+}
+.display-popup-top{
+    top: 40px;
+     background: red;
+
+}
+.display-popup-down{
+    bottom:  50px;
+     background: blue;
+}
+.display-popup-right{
+     left:10px;
+    /* background: blue; */
+
+}
+.display-popup-left{
+     left:10px;
+    /* background: blue; */
+
+}
+
+
+.container .daily-trend-chart{
+    width: 400px;
+    height: 300px;
+}
+@media(min-width:800px){
+
+    .container .daily-trend-chart{
+        width: 450px;
+        height: 250px;
+    }
+
+}
+
+
+@media(min-width:1000px){
+ 
+    .daily-trend-Line-Chart-container{
+        width: 45vw;
+        height: 45vh;
+        
+    }
+    .container .daily-trend-chart{
+        width: 600px;
+        height: 250px;
+    }
+}
+@media(min-width:1335px){
+
+    .daily-trend-Line-Chart-container{
+        width: 25vw;
+        height: 35vh;
+        
+    }
+    .container .daily-trend-chart{
+        width: 700px;
+        height: 200px;
+    }
+
+}

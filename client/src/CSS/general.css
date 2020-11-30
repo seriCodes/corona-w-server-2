@@ -1,0 +1,60 @@
+html {
+         direction: rtl;
+}
+.button{
+    cursor: pointer;
+}
+.display-none{
+display: none;
+}
+.display-flex{
+    display: flex;
+ 
+}
+.container{
+    position: relative;
+    background: var(--background-default-components);
+    border-radius: 15px;
+    padding:  7px;
+    /* border: green solid 10px; */
+}
+.middle-elenet .text{
+    background: #e6f1f4;
+    border-radius: 15px;
+    font-size: .7rem;
+    font-weight: 400;
+}
+.sub-title{
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700 ;
+}
+*{
+    
+}
+.none-visible{
+    visibility: hidden;
+}
+.legend-container span .circle{
+    display: inline;
+    min-width: 30px;
+height: 30px;
+border-radius: 100%;
+
+}
+.legend-container span .circle.tests{
+    background: teal;
+
+}
+.legend-container span .circle.verified{
+    background: lightskyblue;
+
+}
+ 
+.selector-button{
+
+}
+.chart-container{
+   background: none; 
+}
