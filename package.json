@@ -7,7 +7,7 @@
   },
 
   "description": "server-corona-charts-project",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
