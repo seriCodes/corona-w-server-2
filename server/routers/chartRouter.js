@@ -1,5 +1,5 @@
-const chartData = require('./models/chartData');
-const MarioChar = require('./models/MarioChar');
+const chartData = require('../models/chartData');
+const MarioChar = require('../models/MarioChar');
 
  const express = require('express')
  const router = new express.Router()

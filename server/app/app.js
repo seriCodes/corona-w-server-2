@@ -1,10 +1,10 @@
 require('dotenv').config()
-require('./data/charts')
+require('../data/charts')
 
 const mongoose = require ('mongoose')
 // const MarioChar = require('./models/mariochar')
-const chartData = require('./models/chartData')
-const chartRouter = require('./chartRouter')
+const chartData = require('../models/chartData')
+const chartRouter = require('../routers/chartRouter')
 
 const cors =require('cors');
 
