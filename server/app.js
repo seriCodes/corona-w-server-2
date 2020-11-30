@@ -46,7 +46,7 @@ console.log(path.join(buildPath, 'index.html'))
     res.sendFile(path.join(buildPath, 'index.html'));
 });
 
-app.listen(port, () => console.log(`server is up on port ${port}...`));
+// app.listen(port, () => console.log(`server is up on port ${port}...`));
 ///////////
 // 
 
@@ -84,4 +84,6 @@ async function getData(){
     
     getData()
     
+
+   module.exports=app;
 
