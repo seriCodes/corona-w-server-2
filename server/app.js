@@ -34,9 +34,14 @@ app.use(chartRouter);
 // app.get('/ping', function (req, res) {
 //     return res.send('pong');
 // });
+console.log('outside appget')
+console.log("path.join(buildPath, 'index.html'")
+console.log(path.join(buildPath, 'index.html'))
 
-app.get('/*', function (req, res) {
-  // app.get('*', function (req, res) {
+// path.join(buildPath, 'index.html'
+// app.get('/*', function (req, res) {
+  console.log('inside appget')
+  app.get('*', function (req, res) {
     // app.get('/', function (req, res) {    
     res.sendFile(path.join(buildPath, 'index.html'));
 });
